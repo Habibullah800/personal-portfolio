@@ -9,6 +9,9 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 120px;
@@ -40,8 +43,19 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-item{
+    width: 40%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-radius: 10px;
 
-
+    box-shadow: 10px 10px 50px yellowgreen;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
 
 
